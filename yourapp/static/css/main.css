@@ -1,0 +1,14 @@
+{
+  "name": "FashionAI",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "postcss yourapp/static/css/tailwind.css -o yourapp/static/css/main.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.1.4"
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3BhY2thZ2UuanNvbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIntcbiAgXCJuYW1lXCI6IFwiRmFzaGlvbkFJXCIsXG4gIFwidmVyc2lvblwiOiBcIjEuMC4wXCIsXG4gIFwic2NyaXB0c1wiOiB7XG4gICAgXCJidWlsZFwiOiBcInBvc3Rjc3MgeW91cmFwcC9zdGF0aWMvY3NzL3RhaWx3aW5kLmNzcyAtbyB5b3VyYXBwL3N0YXRpYy9jc3MvbWFpbi5jc3NcIlxuICB9LFxuICBcImRldkRlcGVuZGVuY2llc1wiOiB7XG4gICAgXCJhdXRvcHJlZml4ZXJcIjogXCJeMTAuNC4yXCIsXG4gICAgXCJwb3N0Y3NzLWNsaVwiOiBcIl45LjEuMFwiLFxuICAgIFwidGFpbHdpbmRjc3NcIjogXCJeMy4xLjRcIlxuICB9XG59XG4iXX0= */

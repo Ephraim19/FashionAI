@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+  <head>
+    <title>Identify Image</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  </head>
+  <body>
+    <h1>Identify Image</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <label for="image">Choose an image to identify:</label><br>
+      <input type="file" name="image"><br>
+      <input type="submit" value="Identify">
+    </form>
+  </body>
+</html>

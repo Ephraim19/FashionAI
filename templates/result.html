@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+  <head>
+    <title>Identify Image Result</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  </head>
+  <body>
+    <h1>Identify Image Result</h1>
+    <p>The predicted class of the uploaded image is: {{ predicted_class }}</p>
+  </body>
+</html>
